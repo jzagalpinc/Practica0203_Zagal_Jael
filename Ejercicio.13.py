@@ -2,6 +2,6 @@
 
 while True:
     frase = input("Introduce algún texto. Para salir escribir (salir): ")
-    if frase.lower() == "salir":  # Convertir a minúsculas para comparar
+    if frase.lower() == "salir":  
         break
     print(frase)
